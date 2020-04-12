@@ -94,6 +94,7 @@ def changing_alan
   # return the entire updated hash
 
 	programmer_hash = 
+ 		programmer_hash[:alan_kay][:known_for] = "GUI"
  		{
       :grace_hopper => {
         :known_for => "COBOL",
